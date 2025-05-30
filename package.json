@@ -1,0 +1,38 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "axios": "^0.21.1",
+    "element-plus": "^2.9.11",
+    "js-cookie": "^2.2.1",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "path-browserify": "^1.0.1",
+    "path-to-regexp": "^6.3.0",
+    "perfect-scrollbar": "^1.5.6",
+    "pinia": "^3.0.2",
+    "vite-plugin-require-transform": "^1.0.21",
+    "vue": "^3.3.13",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vitejs/plugin-vue-jsx": "^4.2.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "ip": "^1.1.5",
+    "sass": "^1.63.6",
+    "svg-sprite-loader": "^6.0.7",
+    "unplugin-auto-import": "^0.15.3",
+    "unplugin-element-plus": "^0.7.0",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.5.14",
+    "vite-plugin-style-import": "^1.2.1"
+  }
+}

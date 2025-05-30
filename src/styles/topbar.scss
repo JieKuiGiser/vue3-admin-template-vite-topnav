@@ -1,0 +1,47 @@
+@use "./variables.scss" as *;
+.top-nav {
+  // margin-left: $sideBarWidth;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #304156;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  height: 56px;
+  overflow: hidden;
+
+  .log {
+    padding: 0 20px;
+    line-height: 56px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(191, 203, 217);
+  }
+  .menu{
+    width: 70%;
+  }
+  .el-menu {
+    width: 100%;
+    border: none !important;
+    background-color: #304156;
+
+    .el-menu-item {
+      color: $menuText;
+      &:hover {
+        background-color: $subMenuHover !important;
+      }
+      &:focus {
+        background-color: $subMenuHover !important;
+        // color: $subMenuActiveText !important;
+      }
+      .svg-icon{
+        margin-right: 8px;
+      }
+    }
+    .el-menu-item.is-active {
+      color: $menuActiveText;
+    }
+  }
+}
